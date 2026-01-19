@@ -10,7 +10,7 @@ and announcements.
 ## Deployment
 
 - Platform: Cloudflare Pages
-- Domain: yukimori-mugicha.pages.dev (temporary)
+- Domain: ymp-engr-dept.github.io/yukimori-mugicha-frontend (temporary)
 - Custom domain: yukimori-mugicha.is-a.dev (after approval)
 
 ## Repository Role
