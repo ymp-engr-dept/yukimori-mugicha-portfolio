@@ -1,23 +1,9 @@
-# Yukimori Mugicha Project Website (Frontend)
+# Yukimori Mugicha Project Website
 
-This repository contains the frontend code for the official website of the
-Yukimori Mugicha Project.
+This repository hosts a software development portfolio site.
 
-The website is deployed using Cloudflare Pages and is intended to serve
-as the main public-facing site for the project, including general information
-and announcements.
+The root domain represents the developer identity of
+Yukimori Mugicha Engineering Department.
 
-## Deployment
-
-- Platform: Cloudflare Pages
-- Domain: ymp-engr-dept.github.io/yukimori-mugicha-frontend (temporary)
-- Custom domain: yukimori-mugicha.is-a.dev (after approval)
-
-## Repository Role
-
-This repository is responsible only for frontend assets.
-Backend logic and APIs are handled separately using Cloudflare Workers.
-
-## Status
-
-This project is under active development.
+All actual projects will be hosted on nested subdomains
+under the is-a.dev domain.
