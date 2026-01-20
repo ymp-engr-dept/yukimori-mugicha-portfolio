@@ -1,4 +1,4 @@
-# Yukimori Mugicha Project Website
+# Yukimori Mugicha Project Portfolio
 
 This repository hosts a software development portfolio site.
 
