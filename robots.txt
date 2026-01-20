@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ymp-engr-dept.github.io/yukimori-mugicha-frontend/sitemap.xml
