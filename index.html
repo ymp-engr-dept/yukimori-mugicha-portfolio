@@ -1,113 +1,82 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ホーム | 雪杜麦茶Project</title>
-    <meta name="description" content="雪杜麦茶Project - 開発と和風デザインが融合するポートフォリオサイト。GitHub Pages で運用中。">
-    <link rel="canonical" href="https://ymp-engr-dept.github.io/yukimori-mugicha-frontend/">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <title>Yukimori Mugicha Engineering Department</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Software development portfolio of Yukimori Mugicha Engineering Department." />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #f8fafc;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-        <div class="container header-inner">
-            <div class="logo">
-                <a href="./">
-                    <img src="assets/img/logo.png" alt="雪杜麦茶Project Logo">
-                    雪杜麦茶Project
-                </a>
-            </div>
-            <button class="menu-toggle" aria-label="メニューを開く">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="./" class="active">ホーム</a></li>
-                    <li><a href="about/">About</a></li>
-                    <li><a href="contact/">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <main>
+    <h1>Yukimori Mugicha Engineering Department</h1>
+    <p>
+      This website serves as a <strong>software development portfolio</strong>
+      and developer identity.
+    </p>
 
-    <main>
-        <div class="hero">
-            <!-- Border Animation Parts -->
-            <div class="hero-border hero-border-top"></div>
-            <div class="hero-border hero-border-right"></div>
-            <div class="hero-border hero-border-bottom"></div>
-            <div class="hero-border hero-border-left"></div>
+    <h2>About</h2>
+    <p>
+      We focus on software development, including web technologies,
+      cloud infrastructure, and development tools.
+    </p>
 
-            <!-- Vertical Lines (New) -->
-            <div class="hero-vertical-lines-container">
-                <div class="line-v"></div>
-                <div class="line-v"></div>
-                <div class="line-v"></div>
-            </div>
+    <h2>Projects</h2>
+    <p>
+      All software projects and services are hosted on
+      <strong>nested subdomains</strong> under this domain.
+    </p>
+    <p>
+      (e.g. <code>project-name.yukimori-mugicha.is-a.dev</code>)
+    </p>
 
-            <!-- Horizontal Lines -->
-            <div class="hero-lines-container">
-                <div class="line"></div> <!-- Top -->
-                <div class="line"></div> <!-- Middle -->
-                <div class="line"></div> <!-- Bottom -->
-            </div>
-
-            <!-- Brand Content -->
-            <div class="hero-content">
-                <div class="hero-brand">
-                    <img src="assets/img/logo.png" alt="Logo">
-                    <h1>雪杜麦茶Project</h1>
-                    <div class="hero-subtitle">Code with Elegance. Design with Soul.</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <p style="text-align: center; font-size: 1.2rem; margin-top: var(--spacing-lg);">
-                和の心と技術の融合を目指して。<br>
-                ここは静的サイト運用の実験場であり、私のポートフォリオの一部です。
-            </p>
-
-            <section style="margin-top: var(--spacing-xl);">
-                <h2>Featured</h2>
-                <p>
-                    シンプルかつ堅牢なWebサイト制作を心がけています。<br>
-                    GitHub Pagesを利用したサーバーレスで高速な配信を実現。
-                </p>
-            </section>
-
-            <section style="margin-top: var(--spacing-xl);">
-                <h2>Explore</h2>
-                <div
-                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-md);">
-                    <div
-                        style="background: white; padding: var(--spacing-md); border-radius: var(--radius-md); box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-                        <h3>About</h3>
-                        <p>このプロジェクトと運営者について。</p>
-                        <a href="about/" class="btn">詳しく見る</a>
-                    </div>
-                    <div
-                        style="background: white; padding: var(--spacing-md); border-radius: var(--radius-md); box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-                        <h3>Contact</h3>
-                        <p>お問い合わせはこちらから。</p>
-                        <a href="contact/" class="btn">お問い合わせ</a>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
+    <h2>Links</h2>
+    <ul>
+      <li>
+        GitHub:
+        <a href="https://github.com/ymp-engr-dept" target="_blank" rel="noopener">
+          ymp-engr-dept
+        </a>
+      </li>
+      <li>
+        Contact:
+        <a href="mailto:dev@yukimori-mugicha.is-a.dev">
+          dev@yukimori-mugicha.is-a.dev
+        </a>
+      </li>
+    </ul>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 雪杜麦茶Project. All Rights Reserved.</p>
-        </div>
+      <p>
+        This site is non-commercial and intended for software development
+        related activities only.
+      </p>
     </footer>
-
-    <script src="assets/js/main.js"></script>
+  </main>
 </body>
-
 </html>
